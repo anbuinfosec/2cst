@@ -1,0 +1,93 @@
+<!--
+Made by @anbuinfosec
+Facebook: https://www.facebook.com/anbuinfosec
+Github: https://www.github.com/anbuinfosec
+Telegram: https://www.t.me/anbuinfosec
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Class Routine for A1 Students of the Computer Department at Barisal Polytechnic.">
+    <meta name="keywords" content="bpi, barisal polytechnic, cst, 2csta1">
+    <meta name="author" content="Mohammad Alamin">
+    <meta property="og:title" content="2CST-B1 | BPI">
+    <meta property="og:description" content="Class Routine for A1 Students of the Computer Department at Barisal Polytechnic.">
+    <meta property="og:image" content="assets/logo.png">
+    <meta property="og:url" content="/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="Class Routine for A1 Students of the Computer Department at Barisal Polytechnic.">
+    <meta name="twitter:title" content="2CST-B1 | BPI">
+    <meta name="twitter:description" content="Class Routine for A1 Students of the Computer Department at Barisal Polytechnic.">
+    <meta name="twitter:image" content="assets/logo.png">
+    <title>2CST-B1 | BPI CLASS ROUTINE</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-mAg+Ows/9z9M69ZB5XzJ7wp7u4fMHIbY2l2Zv9pHNe0eMbP/g29rVr10CSrU+XhvTcVp8H8w+8ZwYJbWHbVCPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="main-div">
+          <div id="main-button" class="wave open">
+            <i class="fas fa-comments fa-times"></i>
+          </div>
+          <a href="https://t.me/anbuinfosec" class="telegram-color"><i class="fab fa-telegram-plane"></i></a>
+          <a href="https://m.me/anbuinfosec" class="messenger-color"><i class="fab fa-facebook-messenger"></i></a>
+          <a href="https://github.com/anbuinfosec" class="github-color"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    <div class="container-fluid">
+        <div class="logo">
+            <img src="assets/logo.png" alt="Logo">
+        </div>
+
+        <div class="text-center">
+            <h3 class="mt-4 mb-4">2CST-B1 | BPI CLASS ROUTINE</h3>
+            <div class="row mb-4">
+                <div class="col">
+                    <p><strong>Today's Date:</strong> <span id="currentDate"></span></p>
+                </div>
+                <div class="col">
+                    <p><strong>Current Time:</strong> <span id="currentTime"></span></p>
+                </div>
+            </div>
+            <div class="form-group">
+                <select id="daySelect" class="form-control" onchange="displaySelectedDay()">
+                    <option value="select">Select Day</option>
+                    <option value="Sunday">Sunday</option>
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                </select>
+            </div>
+            
+            <div class="table-responsive">
+                <table id="routineTable" class="table table-bordered mt-4">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th><i class="fas fa-clock"></i> Period</th>
+                            <th><i class="far fa-clock"></i> Time</th>
+                            <th><i class="fas fa-book"></i> Subject</th>
+                            <th><i class="fas fa-door-open"></i> Room No</th>
+                            <th><i class="fas fa-chalkboard-teacher"></i> Teacher</th>
+                            <th><i class="fas fa-stopwatch"></i> Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 <a href="https://anbusec.xyz">@anbuinfosec</a>. All rights reserved.</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/02f998799c.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+</html>
