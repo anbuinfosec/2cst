@@ -228,14 +228,14 @@ const displayRoutine = (selectedDay) => {
     if (routine[selectedDay]) {
         routine[selectedDay].forEach(classInfo => {
             const row = routineTable.insertRow();
-            const cellPeriod = row.insertCell(0);
-            const cellTime = row.insertCell(1);
-            const cellSubjectName = row.insertCell(2);
-            const cellRoomNumber = row.insertCell(3);
-            const cellTeacherName = row.insertCell(4);
-            const cellDuration = row.insertCell(5);
+            // const cellPeriod = row.insertCell(0);
+            const cellTime = row.insertCell(0);
+            const cellSubjectName = row.insertCell(1);
+            const cellRoomNumber = row.insertCell(2);
+            const cellTeacherName = row.insertCell(3);
+            const cellDuration = row.insertCell(4);
 
-            cellPeriod.textContent = classInfo.period;
+            // cellPeriod.textContent = classInfo.period;
             cellTime.textContent = `${classInfo.start_time} - ${classInfo.end_time}`;
             
             const subjectName = subjectNames[classInfo.subject_code] || "Unknown Subject";
