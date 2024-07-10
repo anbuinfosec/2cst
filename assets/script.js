@@ -29,7 +29,7 @@ const teachersName = {
     "KB": "KHALEDA MAM",
     "BS": "BADSHA SIR",
     "SC": "SAMARJIT SIR",
-    "RSR-2": "RSR-2",
+    "RSR-2": "EMA MAM",
     "MUG": "MEJBAH SIR",
     "SK": "SELIM SIR",
     "UAL": "LIZA MAM"
