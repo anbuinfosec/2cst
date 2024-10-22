@@ -134,7 +134,7 @@ const routine = {
             "subject_code": "26811",
             "room_number": "AV-1",
             "teacher_name": "UAL",
-            "start_time": "11:30 AM",
+            "start_time": "11:00 AM",
             "end_time": "01:15 PM"
         },
     ],
